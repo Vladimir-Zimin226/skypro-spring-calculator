@@ -1,5 +1,4 @@
 package pro.sky.skyprospringcalculator;
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,7 +12,6 @@ public class CalculatorController {
     public CalculatorController(CalculatorService calculatorService) {
         this.calculatorService = calculatorService;
     }
-
 
     @GetMapping
     public String answerCalculatorHello() {
@@ -56,5 +54,4 @@ public class CalculatorController {
 
 
 }
-
 
