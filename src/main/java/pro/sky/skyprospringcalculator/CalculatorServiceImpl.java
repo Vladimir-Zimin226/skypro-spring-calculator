@@ -17,6 +17,7 @@ public class CalculatorServiceImpl implements CalculatorService {
                 "<strong><BLOCKQUOTE><font size=\"20\" color= \"e34234\">Чтобы выполнить операцию деления введите /divide?num1=X&num2=Y</font></BLOCKQUOTE></strong>";
     }
 
+
     public int calculatePlus(int num1, int num2) {
         return num1 + num2;
     }
